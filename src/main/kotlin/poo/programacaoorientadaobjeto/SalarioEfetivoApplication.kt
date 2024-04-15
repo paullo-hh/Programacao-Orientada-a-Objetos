@@ -1,7 +1,6 @@
 
 // Programação Estruturada
 fun main() {
-    val name = readln().toString()
     var n1 = readln().toInt()
     var n2 = readln().toInt()
 
