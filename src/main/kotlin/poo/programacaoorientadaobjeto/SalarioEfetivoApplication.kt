@@ -1,11 +1,12 @@
-package poo.programacaoorientadaobjeto
 
-import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
+// Programação Estruturada
+fun main() {
+    val name = readln().toString()
+    var n1 = readln().toInt()
+    var n2 = readln().toInt()
 
-@SpringBootApplication
-class SalarioEfetivoApplication
+    var calculoFinal = n1 + n2
 
-fun main(args: Array<String>) {
-    runApplication<SalarioEfetivoApplication>(*args)
+    println("O resultado da sua conta é $calculoFinal")
+
 }
